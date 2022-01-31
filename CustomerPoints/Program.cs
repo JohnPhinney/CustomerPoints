@@ -10,6 +10,7 @@ namespace CustomerPoints
     {
         static void Main(string[] args)
         {
+            // SQL Server Connection String
             string connection = "";
 
             CustomerPointsSrvc svc = new CustomerPointsSrvc();
